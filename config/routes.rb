@@ -1,4 +1,8 @@
 Icteach::Application.routes.draw do
+  resources :microposts
+
+  resources :profs
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
